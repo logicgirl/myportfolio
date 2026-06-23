@@ -32,14 +32,15 @@ export default function Home() {
       <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-10 pt-6">
         <div className="space-y-4 max-w-2xl text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900">
-            Hi, I'm <span className="text-blue-600">Christiana</span>
+            Hi, {"I'm"} <span className="text-blue-600">Christiana</span>
           </h1>
           <p className="text-lg text-slate-600 leading-relaxed">
-            I'm a web developer focused on building clean, interactive web
+            {"I'm"} a web developer focused on building clean, interactive web
             applications. I love bridging frontend design using technologies
             like <strong className="text-slate-800">Next.js</strong> and{" "}
             <strong className="text-slate-800">Tailwind CSS</strong> with solid
-            backend logic in <strong className="text-slate-800">Go</strong>. I'm
+            backend logic in <strong className="text-slate-800">Go</strong>.{" "}
+            {"I'm"}
             constantly learning, building new projects, and expanding my
             full-stack skills.
           </p>
@@ -132,12 +133,12 @@ export default function Home() {
         className="border-t border-slate-100 pt-12 text-center md:text-left max-w-2xl"
       >
         <h2 className="text-3xl font-bold mb-4 text-slate-800">
-          Let's Connect
+          {"Let's"} Connect
         </h2>
         <p className="text-slate-600 mb-6 leading-relaxed">
-          I'm always open to discussing new development projects, open-source
-          ideas, full-stack opportunities, or just chatting about code. Drop me
-          a line!
+          {"I'm"} always open to discussing new development projects,
+          open-source ideas, full-stack opportunities, or just chatting about
+          code. Drop me a line!
         </p>
         <div className="flex flex-wrap justify-center md:justify-start gap-4">
           <a
