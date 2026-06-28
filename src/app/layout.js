@@ -1,3 +1,5 @@
+import Script from "next/script";
+
 export const metadata = {
   title: "Christiana Edem Julius | Backend Engineer",
   description:
@@ -52,7 +54,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <style dangerouslySetInnerHTML={{ __html: inlineStyles }} />
-        <script src="https://cdn.tailwindcss.com" />
+        <Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
       </head>
       <body>
         {children}
