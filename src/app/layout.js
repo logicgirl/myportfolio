@@ -1,9 +1,9 @@
 import Script from "next/script";
 
 export const metadata = {
-  title: "Christiana Edem Julius | Backend Engineer",
+  title: "Edem Christiana Julius | Backend Engineer",
   description:
-    "Portfolio of Christiana Edem Julius — Backend Software Engineer specializing in Go, Redis, WebSockets, and scalable distributed systems.",
+    "Portfolio of Edem Christiana Julius — Backend Software Engineer specializing in Go, Redis, WebSockets, and scalable distributed systems.",
 };
 
 const inlineStyles = `

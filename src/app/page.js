@@ -206,7 +206,7 @@ function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#about" className="text-sm font-mono font-semibold text-slate-300 hover:text-emerald-400 transition-colors tracking-widest uppercase">
-          CEJ<span className="text-emerald-400">.</span>dev
+          ECJ<span className="text-emerald-400">.</span>dev
         </a>
 
         <div className="hidden md:flex items-center gap-1">
@@ -360,7 +360,7 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-full p-0.5 animate-pulse-ring"
                   style={{ background: "linear-gradient(135deg, #10b981, #06b6d4, #8b5cf6)" }}>
                   <div className="w-full h-full rounded-full overflow-hidden" style={{ background: "#020817" }}>
-                    <img src="/profile.jpg" alt="Christiana Edem Julius" className="w-full h-full object-cover rounded-full" />
+                    <img src="/profile.jpg" alt="Edem Christiana Julius" className="w-full h-full object-cover rounded-full" />
                   </div>
                 </div>
               </div>
@@ -568,7 +568,7 @@ export default function Home() {
         <footer className="py-8 border-t border-slate-800/60 text-center">
           <p className="text-sm text-slate-600">
             Built with Next.js & Tailwind CSS &nbsp;·&nbsp;
-            <span className="gradient-text font-medium">Christiana Edem Julius</span>
+            <span className="gradient-text font-medium">Edem Christiana Julius</span>
             &nbsp;·&nbsp; {new Date().getFullYear()}
           </p>
         </footer>
